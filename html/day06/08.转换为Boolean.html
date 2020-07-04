@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>html\day06\08.转换为Boolean.html</title>
+        <script type="text/javascript">
+            /**
+             * 将其他的数据类型转换为Boolean
+             *      - 使用Boolean()函数
+             *          - 数字 --> 布尔值
+             *              - 除了 0 和 NaN，其余都是true
+             *          - 字符串 --> 布尔值
+             *              - 除了空串，其余都是true
+             *          - null 和 undefined 都会转换为 false
+             *          - 对象也会转换为 true
+             */
+
+            // 调用 Boolean() 函数 转换为布尔值
+            console.log(Boolean(123));
+            console.log(Boolean(-123));
+            console.log(Boolean(0));
+            console.log(Boolean(Infinity));
+            console.log(Boolean(Number.MIN_VALUE));
+            console.log(Boolean(NaN));
+            console.log(Boolean("true"));
+            console.log(Boolean("false"));
+            console.log(Boolean(" "));
+            console.log(Boolean(null));
+            console.log(Boolean(undefined));
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

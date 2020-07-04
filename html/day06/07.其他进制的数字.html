@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>html\day06\07.其他进制的数字.html</title>
+        <script type="text/javascript">
+            /**
+             * 在JS中，如果需要表示16进制的数字，则需要以0x开头
+             *          如果需要表示8进制的数字，则需要以0o开头
+             *          如果需要表示2进制的数字，则需要以0b开头
+             *              但是不是所有的浏览器都支持
+             */
+
+            // 十六进制
+            console.log(0x123);
+            console.log(0xff);
+            console.log(0xCafe);
+
+            // 八进制
+            console.log(0o70);
+
+            // 二进制
+            console.log(0b10)
+
+            // 可以在parseInt()中传递一个第二个参数，来指定数字的进制
+            console.log(parseInt(29372, 10))
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
